@@ -11,7 +11,7 @@ function create_tables_for_test() {
   echo "Creating tables for test database"
   dbname="beetle_crawler_test"
   psql $dbname <<SQL
-    CREATE TABLE weburlsandcontent (id serial PRIMARY KEY, weburl varchar(65535), title varchar(65535));
+    CREATE TABLE weburlsandcontent (id serial PRIMARY KEY, weburl varchar(65535), title varchar(65535), description varchar(65535), keywords varchar(65535));
     SELECT * FROM weburlsandcontent;
     CREATE TABLE weburls (id serial PRIMARY KEY, weburl varchar(65535));
     SELECT * FROM weburls;
@@ -29,7 +29,7 @@ function create_tables_for_development() {
   echo "Creating tables for development database"
   dbname="beetle_crawler_development"
   psql $dbname <<SQL
-    CREATE TABLE weburlsandcontent (id serial PRIMARY KEY, weburl varchar(65535), title varchar(65535));
+    CREATE TABLE weburlsandcontent (id serial PRIMARY KEY, weburl varchar(65535), title varchar(65535), description varchar(65535), keywords varchar(65535));
     SELECT * FROM weburlsandcontent;
     CREATE TABLE weburls (id serial PRIMARY KEY, weburl varchar(65535));
     SELECT * FROM weburls;
