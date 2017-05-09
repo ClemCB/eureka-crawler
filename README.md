@@ -2,7 +2,7 @@
 
 Final project (weeks 11 & 12) at Makers Academy. Tasked with working on a project of our design in languages and testing frameworks of our choice.
 
-Central throughout the project were TDD/BDD, XP values and agile practices.
+Central throughout the project were TDD/BDD, [XP values](http://www.extremeprogramming.org/values.html) and [agile practices](http://www.allaboutagile.com/what-is-agile-10-key-principles/).
 
 Team:
 - [Clem Capel-Bird](https://github.com/ClemCB)
@@ -33,3 +33,7 @@ To crawl:
 To search your crawled links:
 
 - Follow the installation and run instructions on [Eureka Search](https://github.com/ClemCB/eureka-search-engine)
+
+## Crawler in Action
+
+![alt tag](https://github.com/ClemCB/eureka-crawler/blob/master/screenshots/readme_screenshot.png)
