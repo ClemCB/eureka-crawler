@@ -22,15 +22,17 @@ Installation:
 
 - Run ```./db-config.sh``` to create your test and development databases and tables
 - If you get an error regarding permissions, you'll need to run ```chmod +x db-config.sh```, then run the above again
-- If you have any errors you may need to install some or all of the following: ``` brew install python3 ``` & ``` pip3 install sqlalchemy ``` & ``` pip3 install psycopg2``` & ``` pip3 install bs4 ```
+
 
 To crawl:
 
 - Open /initiate_crawl.py
 - Enter a website to begin crawling
 - Run ``` python3 initiate_crawl.py ```
+- If you have any errors you may need to install some or all of the following: ``` brew install python3 ``` & ``` pip3 install sqlalchemy ``` & ``` pip3 install psycopg2``` & ``` pip3 install bs4 ```
 
-To search your crawled links:
+
+To search crawled data:
 
 - Follow the installation and run instructions on [Eureka Search](https://github.com/ClemCB/eureka-search-engine)
 
